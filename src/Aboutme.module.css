@@ -1,0 +1,40 @@
+.aboutMeContainer img {
+  width: 1.875rem;
+}
+
+article {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutMeImage {
+  width: 380px;
+  height: 380px;
+  border-radius: 20px;
+  margin-right: 3rem;
+  margin-left: -4rem;
+}
+.aboutMeContainer {
+  display: flex;
+  gap: 4rem;
+  text-align: center;
+}
+
+.firstAboutTitleClass {
+  font-weight: bolder;
+}
+
+.educationDetails,
+.experienceDetails {
+  border: 1px solid rgba(53, 53, 53, 0.8);
+  width: 350px;
+  height: 120px;
+  margin: 40px 0 25px 0;
+  padding: 20px 0;
+  border-radius: 50px;
+}
+.educationDetails p,
+.experienceDetails p {
+  margin: 0.5rem;
+  color: rgb(53, 53, 53);
+}
