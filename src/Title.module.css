@@ -8,3 +8,8 @@
   margin-top: 0;
   margin-bottom: 5rem;
 }
+
+.aboutMe p {
+  color: rgba(53, 53, 53, 0.7);
+  font-weight: 700;
+}

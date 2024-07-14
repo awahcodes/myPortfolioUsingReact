@@ -1,0 +1,41 @@
+.experienceImage {
+  width: 35px;
+}
+
+.skillContainer {
+  display: grid;
+  grid-template-columns: 250px 250px;
+}
+
+.experienceContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.experienceLanguage p:nth-child(even) {
+  margin-top: -0.9rem;
+  font-size: 1rem;
+  color: rgba(53, 53, 53, 0.7);
+  font-weight: 600;
+}
+
+.experienceLanguage p:nth-child(odd) {
+  margin-bottom: 1.25rem;
+  font-weight: bolder;
+  font-size: large;
+}
+
+.skillsContainer {
+  border: 1px solid rgba(53, 53, 53, 0.8);
+  width: 480px;
+  padding: 0 0 20px 80px;
+  border-radius: 30px;
+}
+
+.frontendDev {
+  margin-left: 2.2rem;
+  color: rgba(53, 53, 53, 0.8);
+  font-weight: 800;
+  font-size: 1.6rem;
+}
