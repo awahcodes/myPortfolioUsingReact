@@ -6,6 +6,7 @@ import Arrowdirection from "./Arrowdirection";
 import Title from "./Title";
 import Experience from "./Experience";
 import Skills from "./Experience";
+import Bothskills from "./Experience";
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
       <AboutMe />
       <Arrowdirection />
       <Title prytitle="Explore My" sectitle="Experience" />
-      <Skills />
+      <Bothskills />
+      <Arrowdirection />
+      <Title prytitle="Browse My" sectitle="Projects" />
     </body>
   );
 }
