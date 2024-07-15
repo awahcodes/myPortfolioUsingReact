@@ -7,6 +7,8 @@ import Title from "./Title";
 import Experience from "./Experience";
 import Skills from "./Experience";
 import Bothskills from "./Experience";
+import Projects from "./Projects";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -20,6 +22,10 @@ function App() {
       <Bothskills />
       <Arrowdirection />
       <Title prytitle="Browse My" sectitle="Projects" />
+      <Projects />
+      <Arrowdirection />
+      <Title prytitle="Get In Touch" sectitle="Contact Me" />
+      <Contact />
     </body>
   );
 }

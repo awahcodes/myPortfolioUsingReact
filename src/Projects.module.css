@@ -1,0 +1,39 @@
+.projectsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.project img {
+  width: 350px;
+  height: 350px;
+}
+
+.project img:hover {
+  width: 370px;
+  height: 370px;
+}
+
+.project {
+  border: 1px solid rgba(53, 53, 53, 0.3);
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+
+.project a {
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid rgba(53, 53, 53, 0.7);
+  width: 100px;
+  padding: 12px;
+  border-radius: 15px;
+  color: black;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.project a:hover {
+  color: whitesmoke;
+  background-color: black;
+}
