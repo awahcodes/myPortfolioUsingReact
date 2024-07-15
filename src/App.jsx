@@ -9,6 +9,7 @@ import Skills from "./Experience";
 import Bothskills from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Arrowdirection />
       <Title prytitle="Get In Touch" sectitle="Contact Me" />
       <Contact />
+      <Footer />
     </body>
   );
 }
